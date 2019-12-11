@@ -19,3 +19,27 @@
 .Header #text-elem span {
   font-size: 2em;
 }
+
+.Header li {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+.Header i:hover {
+  background: linear-gradient(180deg, #4a38d2, #6e40dd, #864de3, #b356eb);
+}
+
+.Header i {
+  font-size: 2em;
+  border-style: solid;
+  border-radius: 2em;
+  padding: 0.2em;
+}
+
+.Header #social-links {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
