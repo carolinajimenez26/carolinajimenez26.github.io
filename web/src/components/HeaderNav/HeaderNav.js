@@ -13,7 +13,7 @@ class HeaderNav extends React.Component {
     return (
       <div className="Nav">
         <nav className="navbar navbar-expand-lg justify-content-center">
-          <div className="content text-white" id="navbarNav">
+          <div className="content text-white d-none d-lg-block" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
                 <a className="nav-link font-weight-bold text-white font-subtitle" href="#">Home</a>
