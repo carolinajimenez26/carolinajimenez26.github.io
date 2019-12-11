@@ -39,6 +39,16 @@ class Nav extends React.Component {
   }
 
   render() {
+    const items = [];
+
+    for (const [index, value] of this.props.navElems.entries()) {
+      items.push(
+        <li className="nav-item active" key={index}>
+          <a className="nav-link font-weight-bold text-white" href={value.href}>{value.name}</a>
+        </li>
+      );
+    }
+
     return (
       <div className="Nav d-none">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -47,18 +57,7 @@ class Nav extends React.Component {
           </button>
           <div className="content text-white collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul className="navbar-nav">
-              <li className="nav-item active">
-                <a className="nav-link font-weight-bold text-white font-subtitle" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link font-weight-bold text-white font-subtitle" href="#about">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link font-weight-bold text-white font-subtitle" href="#blog">Blog</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link font-weight-bold text-white font-subtitle" href="#projects">Projects</a>
-              </li>
+              {items}
             </ul>
           </div>
         </nav>
