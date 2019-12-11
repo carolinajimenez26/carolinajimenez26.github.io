@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <Navbar navElems={navElems} />
       <Header navElems={navElems} />
-      <About />
+      <About photo="./images/cjg.jpg" />
     </div>
   );
 }

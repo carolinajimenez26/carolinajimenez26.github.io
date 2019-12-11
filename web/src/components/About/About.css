@@ -1,3 +1,44 @@
 .About {
   height: 100vh;
+  position: relative;
+}
+
+.About .about-large-title {
+	font-weight: 800;
+	color: #f5f6f7;
+  font-size: 15em;
+  position: absolute;
+  left: 21%;
+  top: 0;
+  line-height: 1;
+}
+
+.About #photo img {
+  height: 30em;
+  width: auto;
+}
+
+.About #photo {
+  margin-top: 10em;
+}
+
+.About #info > div {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.About #info h3 {
+  font-size: 4em;
+  color: #001d38;
+}
+
+.About .btn-primary {
+  background-color: #615cfd;
+  border-color:#615cfd;
+}
+
+.About .btn-primary:hover {
+  border: 1px solid#615cfd;
+  color:#615cfd !important;
+  background: 0 0;
 }
