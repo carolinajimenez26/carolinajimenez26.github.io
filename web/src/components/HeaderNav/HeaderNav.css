@@ -7,3 +7,8 @@
 .Nav li {
   margin: 0 10px;
 }
+
+.Nav li a {
+  color: inherit;
+  text-decoration: none;
+}

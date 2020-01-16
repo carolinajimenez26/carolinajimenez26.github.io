@@ -21,9 +21,9 @@ class HeaderNav extends React.Component {
     }
 
     return (
-      <div className="Nav">
+      <div className="Nav d-none d-lg-block">
         <nav className="navbar navbar-expand-lg justify-content-center">
-          <div className="content text-white d-none d-lg-block" id="navbarNav">
+          <div className="content text-white" id="navbarNav">
             <ul className="navbar-nav">
               {items}
             </ul>
