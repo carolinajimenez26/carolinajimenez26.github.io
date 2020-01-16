@@ -9,7 +9,7 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className="About">
+      <div className="About" id="#about">
         <div className="about-large-title d-none d-lg-block">About</div>
         <div className="container">
           <div className="row align-items-center">
@@ -32,7 +32,9 @@ class About extends React.Component {
                   </span>
                 </div>
                 <div className="row" id="#cv">
-                  <button type="button" class="btn btn-lg btn-primary">Download CV</button>
+                  <button type="button" class="btn btn-lg btn-primary">
+                    <a href="https://es.overleaf.com/read/cbcdhdmjkmys" target="_blank">Download CV</a>
+                  </button>
                 </div>
               </div>
             </div>
