@@ -27,27 +27,6 @@
   margin-bottom: 2em;
 }
 
-.About #info h3 {
-  font-size: 4em;
-  color: #001d38;
-}
-
-.About .btn-primary {
-  background-color: #615cfd;
-  border-color:#615cfd;
-}
-
-.About .btn-primary:hover {
-  border: 1px solid#615cfd;
-  color:#615cfd !important;
-  background: 0 0;
-}
-
-.About .btn a {
-  color: inherit;
-  text-decoration: none;
-}
-
 @media (max-width: 766px) {
   .About #info {
     margin-top: 2em;

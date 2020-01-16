@@ -9,14 +9,14 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className="About" id="#about">
+      <div className="About" id="about">
         <div className="about-large-title d-none d-lg-block">About</div>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-6 col-md-6">
               <div className="row" id="info">
                 <div className="row">
-                  <h3>About me</h3>
+                  <h3 className="title">About me</h3>
                 </div>
                 <div className="row">
                   <span className="text-justify">
