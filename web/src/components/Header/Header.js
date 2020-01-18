@@ -32,7 +32,7 @@ class Header extends React.Component {
     for (const [index, value] of this.state.socialElems.entries()) {
       socialItems.push(
         <li key={index}>
-          <a className="text-white" href={value.href} target="_blank">
+          <a className="text-white" href={value.href} target="_blank" rel="noopener noreferrer">
             <i className={value.className}></i>
           </a>
         </li>

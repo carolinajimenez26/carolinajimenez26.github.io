@@ -21,7 +21,6 @@ class Nav extends React.Component {
     let wrappedElement = document.getElementsByClassName('Nav')[0];
     let classNameElement = wrappedElement.className;
     const isTop = window.scrollY < 100;
-    console.log(this.state.isTop);
     if (isTop !== this.state.isTop) {
       this.setState({ isTop }, () => {
         if (this.state.isTop) { // if the user is in the top, stop showing the fixed nav

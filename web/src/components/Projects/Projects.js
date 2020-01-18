@@ -34,7 +34,7 @@ class Projects extends React.Component {
       {
         "description": "Digital Prodict School - Mobile project",
         "img": "./images/projects/dps.png",
-        "link": ""
+        "link": "https://github.com/DigitalProductschool/batch5--trucking"
       },
       {
         "description": "Project Degree - Brain Images visualizer through Tractographies",
@@ -62,7 +62,7 @@ class Projects extends React.Component {
     for (const [index, value] of this.state.projects.entries()) {
       items.push(
         <div className="project col-md-4" key={"project" + index}>
-          <img className="project-img" src={value.img} />
+          <img className="project-img" src={value.img} alt="" />
           <a href={value.link} target="_blank" rel="noopener noreferrer">
             <div className="project-description">
               <p className="font-weight-bold">{value.description}</p>

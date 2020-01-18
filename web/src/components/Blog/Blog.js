@@ -36,7 +36,7 @@ class Blog extends React.Component {
   render() {
     let items = this.state.posts.map((post, index) => {
       return (
-        <div key={index + "post"} className={"col-xl-6 col-md-6 carousel-item " + (index == 0 ? "active" : "")}>
+        <div key={index + "post"} className={"col-xl-6 col-md-6 carousel-item " + (index === 0 ? "active" : "")}>
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">{post.title}</h5>

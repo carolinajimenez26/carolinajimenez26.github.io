@@ -32,8 +32,8 @@ class About extends React.Component {
                   </span>
                 </div>
                 <div className="row" id="#cv">
-                  <button type="button" class="btn btn-lg btn-primary">
-                    <a href="https://es.overleaf.com/read/cbcdhdmjkmys" target="_blank">Download CV</a>
+                  <button type="button" className="btn btn-lg btn-primary">
+                    <a href="https://es.overleaf.com/read/cbcdhdmjkmys" target="_blank" rel="noopener noreferrer">Download CV</a>
                   </button>
                 </div>
               </div>
