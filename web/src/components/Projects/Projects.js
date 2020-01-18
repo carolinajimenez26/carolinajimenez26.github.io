@@ -42,6 +42,11 @@ class Projects extends React.Component {
         "link": "http://repositorio.utp.edu.co/dspace/handle/11059/9433"
       },
       {
+        "description": "Personal web portfolio",
+        "img": "./images/projects/portfolio.png",
+        "link": "https://github.com/carolinajimenez26/carolinajimenez26.github.io"
+      },
+      {
         "description": "More projects",
         "img": "./images/projects/github.png",
         "link": "https://github.com/carolinajimenez26/"
