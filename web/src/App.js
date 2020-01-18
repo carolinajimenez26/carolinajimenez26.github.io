@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
+import Projects from './components/Projects/Projects';
 
 const navElems = [
   {
@@ -35,6 +36,7 @@ function App() {
       <Header navElems={navElems} />
       <About photo="./images/cjg.jpg" />
       <Blog />
+      <Projects />
     </div>
   );
 }
