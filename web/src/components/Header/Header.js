@@ -18,6 +18,11 @@ class Header extends React.Component {
         "href": "https://twitter.com/carojimenez26_"
       },
       {
+        "name": "linkedin",
+        "className": "fa fa-linkedin",
+        "href": "https://linkedin.com/in/carolinajimenez26/"
+      },
+      {
         "name": "medium",
         "className": "fa fa-medium",
         "href": "https://medium.com/@carolinajimenez26"
