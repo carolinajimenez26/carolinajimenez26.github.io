@@ -1,5 +1,5 @@
 .Projects {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -10,6 +10,7 @@
 .Projects .project {
   position: relative;
   width: 50%;
+  padding: 1em;
 }
 
 .Projects .project-img {

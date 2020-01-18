@@ -53,15 +53,15 @@ class Blog extends React.Component {
         <div className="row d-flex justify-content-center">
           <h1 className="title text-white">Blog</h1>
         </div>
-        <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
+        <div id="blogCarousel" className="carousel slide carousel-fade" data-ride="carousel">
           <div className="carousel-inner d-flex justify-content-center">
             {items}
           </div>
-          <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <a className="carousel-control-prev" href="#blogCarousel" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="sr-only">Previous</span>
           </a>
-          <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <a className="carousel-control-next" href="#blogCarousel" role="button" data-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="sr-only">Next</span>
           </a>
