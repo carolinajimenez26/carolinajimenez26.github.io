@@ -1,0 +1,33 @@
+.Footer {
+  min-height: 70vh;
+  position: relative;
+  background-color: black;
+  margin-top: 5em;
+  font-size: 1em;
+}
+
+.Footer #icon-container {
+  padding-top: 4em;
+}
+
+.Footer #icon-container .icon {
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+.Footer .footer-copyright {
+  background-color: #343a40;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.Footer hr {
+  width: 60px;
+  color: #615cfd;
+}
+
+.Footer .icon {
+  color: inherit;
+  text-decoration: none;
+}
