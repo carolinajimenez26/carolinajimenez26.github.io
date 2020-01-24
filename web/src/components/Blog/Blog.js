@@ -49,7 +49,7 @@ class Blog extends React.Component {
     });
 
     return (
-      <div className="Blog blue-bg" id="blog">
+      <div className="Blog blue-bg d-none d-sm-block" id="blog">
         <div className="row d-flex justify-content-center">
           <h1 className="title text-white">Blog</h1>
         </div>
