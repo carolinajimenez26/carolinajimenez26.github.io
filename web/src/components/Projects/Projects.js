@@ -66,7 +66,7 @@ class Projects extends React.Component {
 
     for (const [index, value] of this.state.projects.entries()) {
       items.push(
-        <div className="project col-md-4" key={"project" + index}>
+        <div className="project col-12 col-md-4" key={"project" + index}>
           <img className="project-img" src={value.img} alt="" />
           <a href={value.link} target="_blank" rel="noopener noreferrer">
             <div className="project-description">
