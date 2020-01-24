@@ -14,7 +14,9 @@
 }
 
 .About #photo img {
-  height: 30em;
+  height: 50vw;
+  max-height: 30em;
+  min-height: 15em;
   width: auto;
 }
 
@@ -38,5 +40,11 @@
 
   .About #cv {
     margin-top: 0em;
+  }
+}
+
+@media (max-width: 619px) {
+  .About .row {
+    margin: 0px;
   }
 }
