@@ -1,0 +1,19 @@
+.CV {
+  min-height: 100vh;
+  position: relative;
+  margin-top: 3em;
+  background-color: #f5f6f7;
+}
+
+.CV .vertical-timeline-element-date {
+  color:black;
+}
+
+.CV .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+  left: 93%;
+}
+
+.CV .title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
