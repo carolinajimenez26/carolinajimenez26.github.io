@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import CV from './components/CV/CV';
+import Events from './components/Events/Events';
 import Blog from './components/Blog/Blog';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
@@ -20,6 +21,10 @@ const navElems = [
   {
     "name": "Resumee",
     "href": "#cv",
+  },
+  {
+    "name": "Events",
+    "href": "#events",
   },
   {
     "name": "Blog",
@@ -42,6 +47,7 @@ function App() {
       <Header navElems={navElems} />
       <About photo="./images/cjg.jpg" />
       <CV />
+      <Events />
       <Blog />
       <Projects />
       <Footer />

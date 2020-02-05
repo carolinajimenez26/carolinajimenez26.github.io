@@ -1,0 +1,9 @@
+.Events {
+  min-height: 100vh;
+  position: relative;
+}
+
+.Events .title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

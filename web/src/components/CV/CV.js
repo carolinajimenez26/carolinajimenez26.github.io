@@ -12,7 +12,6 @@ class CV extends React.Component {
       items: []
     };
   }
-  // linear-gradient(120deg, #4a38d2, #6e40dd, #864de3, #b356eb)
 
   componentDidMount() {
     const items = [
