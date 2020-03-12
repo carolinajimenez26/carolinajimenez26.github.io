@@ -34,7 +34,7 @@ class Footer extends React.Component {
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase font-weight-bold">Contact</h6>
               <hr className="accent-2 mb-4 mt-0 d-inline-block mx-auto"/>
-              <p><i className="fa fa-home mr-3"></i> Brazil</p>
+              <p><i className="fa fa-home mr-3"></i> Germany</p>
               <p><i className="fa fa-envelope mr-3"></i>carolina.jimenez.g@gmail.com</p>
             </div>
           </div>
